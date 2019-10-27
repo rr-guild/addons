@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: GuildMembers
+## Author: Luroleverell
+## Version: 0.1
+## SavedVariables: GuildInfoData
+
+main.lua
+
