@@ -7,9 +7,6 @@ SlashCmdList["ITEMS"]=function()
   for k in pairs (GuildLogData) do
     GuildLogData[k] = nil
   end
-  for k in pairs (ItemInfoData) do
-    ItemInfoData[k] = nil
-  end
 
   for i = 1,GetNumGuildMembers() do
     local name, rank, rankIndex, level, class, zone, note, 
@@ -17,6 +14,13 @@ SlashCmdList["ITEMS"]=function()
       achievementPoints, achievementRank, isMobile, isSoREligible, standingID = GetGuildRosterInfo(i)
     
     tinsert(GuildLogData, format("%s,%s,%s,%s", name, class, level, rank))
+  end
+
+  if ItemInfoData == nil then
+    ItemInfoData = {}
+  end
+  for k in pairs (ItemInfoData) do
+    ItemInfoData[k] = nil
   end
   
   for bag = 0,4 do

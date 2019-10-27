@@ -1,8 +1,8 @@
 ## Interface: 11302
-## Title: GuildMembers
+## Title: Ragnarok
 ## Author: Luroleverell
 ## Version: 0.1
-## SavedVariables: GuildInfoData
+## SavedVariables: GuildInfoData, ItemInfoData
 
 main.lua
 
