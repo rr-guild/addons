@@ -2,7 +2,7 @@
 ## Title: Ragnarok
 ## Author: Luroleverell
 ## Version: 0.1
-## SavedVariables: GuildInfoData, ItemInfoData
+## SavedVariables: GuildInfoData, ItemInfoData, ItemList
 
 main.lua
 
